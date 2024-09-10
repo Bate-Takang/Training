@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - CIG Consulting and Analytics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <a class="navbar-brand" href="/">CIG Consulting and Analytics</a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/management">Management</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container content">
+    <h2>Contact Us</h2>
+    <p>We would love to hear from you. Whether you have a question about our services, need assistance with a project, or just want to provide feedback, feel free to reach out to us.</p>
+
+    <h3>Contact Information</h3>
+    <p>Email: analysis@cig-ltd.com</p>
+    <p>Phone: +237 680 007 218</p>
+    <p>Address: Ngeme, Limbe</p>
+
+    <h3>Get in Touch</h3>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 CIG Consulting and Analytics. All rights reserved.</p>
+</div>
+
+</body>
+</html>
